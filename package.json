@@ -1,0 +1,23 @@
+{
+  "name": "onclickcrew",
+  "version": "1.0.0",
+  "description": "Website for workshops and courses",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghadhav/onclickcrew.git"
+  },
+  "author": "raghadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghadhav/onclickcrew/issues"
+  },
+  "homepage": "https://github.com/raghadhav/onclickcrew#readme",
+  "dependencies": {
+    "sqlite3": "^4.1.0"
+  }
+}
