@@ -1,0 +1,46 @@
+.pb64 {
+    padding-top:  64px;
+    padding-bottom: 64px;
+  }
+  .pb-xs-40 {
+    padding-top:  64px;
+    padding-bottom: 40px;
+  }
+
+  .background-image{
+    width: 100%;
+    height: auto;
+  }
+
+.bgimg-main{
+   
+    width: 100%;
+    height: auto;
+  
+  }
+  .btn-color{
+  color: #fff;
+  background-color: #569FCD;
+  border-color: #569FCD;
+  }
+
+
+  .dot {
+    height: 100px;
+    width: 100px;
+    background-color:#569FCD;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .dot img {
+    padding-top:10px;
+    width: 60%;
+    height: auto;
+  }
+  .uppercase{
+    padding-top:  40px;
+    padding-bottom: 20px;
+    
+  }
+  
