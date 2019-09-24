@@ -30,7 +30,7 @@ function login_user(user_email, user_pass)
   console.log('user: ' + user_email + ' is trying to log in with pass: ' + user_pass);
 
   var statement = 'SELECT * FROM users WHERE email = (?)';
-  db.get(statement, user_email, function (err, row) {
+  db.get(statement, user_email, function (err, row) { //get() is a funtion that return the first row from the db
     if (row == null) {
       console.log('the user email is not in the db');
     }
@@ -126,6 +126,20 @@ function start_server() {
     }
     else if (req_url.pathname == '/login') {
       fs.readFile('./login.html', function (err, data) {
+        res.writeHead(200);
+        res.write(data);
+        res.end();
+      });
+    }
+    else if (req_url.pathname == '/about') {
+      fs.readFile('./about.html', function (err, data) {
+        res.writeHead(200);
+        res.write(data);
+        res.end();
+      });
+    }
+    else if (req_url.pathname == '/contact') {
+      fs.readFile('./contact.html', function (err, data) {
         res.writeHead(200);
         res.write(data);
         res.end();
